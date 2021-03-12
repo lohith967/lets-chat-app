@@ -1,15 +1,14 @@
-html, body
+html,body
 {
-  height: 100%;
+  height:100%;
   margin: 0;
+  background-image: linear-gradient(0deg, rgba(79,7,250,1) 0%, rgba(158,56,246,1) 100%);
+  background-size: cover;
+}
+center{
+	height:100%;
 }
 
-body
-{
-background: chocolate;
-
-background-image: linear-gradient(to right top, #f5310e, #f11818, #ff0000, #ff0b0b, #ff0606);
-}
 
 .header
 {
@@ -22,7 +21,7 @@ background-image: linear-gradient(to right top, #f5310e, #f11818, #ff0000, #ff0b
 
 .login_div
 {
-	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+	background-color: antiquewhite;float: none;border-radius: 15px;
 }
 
 .logo
